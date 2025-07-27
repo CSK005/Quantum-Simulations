@@ -8,7 +8,7 @@ import csv
 import tempfile
 import os
 
-st.title("NV QuTiP Simulation App")
+st.title("NV-ROS QuTiP Simulation App")
 
 st.markdown("""
 Upload your required input files:
