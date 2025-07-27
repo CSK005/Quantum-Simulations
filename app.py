@@ -41,7 +41,7 @@ with st.sidebar:
     st.header("🧪 About this App")
     st.markdown(
         """
-        This app simulates the spin dynamics of the Nitrogen-Vacancy (NV) center in diamond using QuTiP.
+        This app simulates the spin dynamics of the Nitrogen-Vacancy (NV) center in diamond with ROS using QuTiP.
         \n
         Upload your **g-tensor.txt** and **a-tensor.txt** files (3x3 matrices), and optionally **spin-density.txt**.
         \n
@@ -68,12 +68,12 @@ with st.sidebar:
     st.markdown("© 2025 | NV Center Quantum Simulation")
 
 # Main app title and instructions
-st.title("🧪 NV Center QuTiP Simulation App")
+st.title("🧪 NV Center - ROS QuTiP Simulation App")
 
 with st.expander("ℹ️ Instructions and Overview", expanded=True):
     st.markdown(
         """
-        **Purpose:** Simulate the quantum spin dynamics of the NV center in diamond with given physical parameters.
+        **Purpose:** Simulate the quantum spin dynamics of the NV center in diamond with ROS and its given physical parameters.
         
         **Inputs:**
         - `g-tensor.txt`: 3x3 g-factor tensor matrix
